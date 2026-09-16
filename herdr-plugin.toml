@@ -1,0 +1,13 @@
+id = "herdr.vscode"
+name = "Open current pane in VS Code"
+version = "0.1.0"
+min_herdr_version = "0.9.0"
+description = "Open the focused Herdr terminal in VS Code without a VS Code extension."
+platforms = ["macos"]
+
+[[actions]]
+id = "open"
+title = "Open current pane in VS Code"
+description = "Attach the focused Herdr terminal in a VS Code integrated terminal."
+contexts = ["pane", "workspace"]
+command = ["bash", "scripts/open-vscode-terminal.sh"]
