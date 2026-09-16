@@ -40,6 +40,7 @@ config = {
     "folders": [{"path": cwd}],
     "settings": {
         "task.allowAutomaticTasks": "on",
+        "terminal.integrated.tabs.enabled": False,
         "terminal.integrated.tabs.title": "${sequence}",
     },
     "tasks": {
